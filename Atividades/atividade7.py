@@ -1,4 +1,3 @@
-
 umCent = int(input("quantidade de Moedas de 1 centavo: "))
 cincoCent = int(input("quantidade de Moedas de 5 centavos: "))
 cincoCent = cincoCent*5
@@ -15,4 +14,4 @@ tot_cent = (umCent + cincoCent + dezCent + vinte_cincoCent + cinquentaCent)/100
 
 totReais = umReal + tot_cent
 
-print("O total de dinheiro poupado foi RS ", totReais)
+print("O total de dinheiro poupado foi R$",totReais)
