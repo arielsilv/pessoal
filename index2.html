@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+	<title>Melhores locais para viajar</title>
+	<style type="text/css">
+        /* Estilo Gerais */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: none;
+            padding: none;
+            background-color: #F4F4F4;
+            color: #333;
+        }
+
+        /* Cabeçalho */
+        .header {
+            background-color: #8B4513;
+            color: #E0FFFF;
+            padding: 15px;
+            text-align: center;
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+        .nav {
+            background-color: #003366;
+            overflow: hidden;
+            width: 100%;
+            position: relative;
+        }
+
+        .nav a {
+            float: center;
+            display: block;
+            color: #FFFFFF;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        .nav a:hover {
+            background-color: #A0522D;
+            color: #FFFFFF;
+        }
+
+        /* Menu de navegação */
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            background-color: #8B4513;
+        }
+
+        nav ul li {
+            position: relative;
+        }
+
+        nav ul li a {
+            display: block;
+            padding: 15px 20px;
+            color: white;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            background-color: #A0522D;
+        }
+
+        .submenu {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: #8B4513;
+            width: 200px;
+            opacity: 0;
+            transition: opacity 0.3s ease, transform 0.3s ease;
+            transform: translateY(-10px);
+        }
+
+
+        .dropdown:hover .submenu {
+            display: block;
+            opacity: 100;
+            transform: translateY(0);
+        }
+
+        /* Conteúdo principal */
+        .content {
+            padding: 50px;
+            background-color: #E0FFFF;
+            margin: 20px;
+            border-radius: 6px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact-form input, .contact-form textarea {
+            width: 98%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 5px solid #CCC;
+            border-radius: 20px;
+        }
+
+        .contact-form button {
+            background-color: #A0522D;
+            color: #FFFFFF;
+            padding: 10px 40px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 20px;
+        }
+
+        .contact-form button:hover {
+            background-color: #8B4513;
+        }
+
+
+        .footer {
+            background-color: #8B4513;
+            color: #FFFFFF;
+            margin: 1px;
+            padding: 5px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+       
+        .footer .contact-box {
+            background-color: #A0522D;
+            padding: 0;
+            border-radius: 0;
+            text-align: 100%;
+        }
+
+        .footer .contact-box p {
+            margin: 10px 0;
+            font-size: 15px;
+        }
+
+        .footer .contact-box i {
+            margin-right: 1px;
+        }
+
+	</style>
+</head>
+<body>
+<div class="header">
+	<h1>MELHORES LUGARES PARA VIAJAR</h1>
+</div>
+    <!-- Menu de navegação -->
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li class="dropdown">
+        <a href="#">Serviços</a>
+            <div class="submenu">
+                    <a href="#">Web Design</a>
+                    <a href="#">Software</a>
+                    <a href="#">Aplicativo</a>
+                </div>
+            </li>
+            <li><a href="#">Contato</a></li>
+        </ul> 
+    </nav>
+    
+    <!-- Menu de navegação -->
+
+    <!-- Conteúdo principal -->
+    <div class="content">
+        <h2>Bem-vindo à minha Página!</h2>
+        <p>Esta pagina foi feita para te mostrar os melhoras lugares para se viajar , Espero que goste.</p>
+
+
+    
+
+    <div class="content">
+        <h2>Top 3 melhores lugares para viajar</h2>
+
+        <p>Esse site serve para você ver o top 3 melhores lugares para viajar.</p>
+        
+        <div>
+          <h3>1.Ilha Sul da Nova Zelândia</h3>  
+        <img src="ilha.webp" alt="Ilha Sul da Nova Zelândia" width="450">
+        <video width="450" controls>
+        <source src="IlhaSuldaNovaZelândia.mp4" type="video/mp4">
+            
+        </video>
+        </div>
+
+        <div>
+            <h3>2.Dubai, Cidade nos Emirados Árabes Unidos</h3>
+         <img src="dubai.jpg" alt="Dubai, Cidade nos Emirados Árabes Unidos" width="450">
+         <video width="450" controls>
+        <source src="dubai.mp4" type="video/mp4">
+         </video>
+         
+        </div>
+
+         <div>
+            <h3>3.Bali, ilha da indonésia</h3>
+         <img src="indonesia.jpg" alt="Bali, ilha da indonésia" width="450">
+         <video width="450" controls>
+        <source src="bali.mp4" type="video/mp4">
+         </video> 
+        </div>
+    </div>
+     
+     <!-- Conteúdo principal -->
+
+     
+     <!-- Contato -->
+
+     <div id="contato" class="section">
+   <h2>Contato</h2>
+   <p>Entre em contato conosco para mais informações:</p>
+   <form class="contact-form">
+       <input type="text" name="nome" placeholder="Seu nome" required>
+       <input type="email" name="email" placeholder="Seu email" required>
+       <textarea placeholder="Sua mensagem" rows="5" required></textarea>
+       <button type="submit">Enviar mensagem</button>
+   </form>
+</div>
+
+    <!-- Contato -->
+     
+     <!-- Rodapé -->
+
+    <div class="footer">
+        <p>&copy MelhoresLugaresParaViajar - Todos os direitos reservados.</p>
+
+    <!-- Rodapé -->
+
+
+</body>
+</html>
